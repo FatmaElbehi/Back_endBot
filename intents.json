@@ -1,0 +1,461 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Good to see you again",
+        "Hi there, how can I help?",
+        "Hello, thanks for asking",
+        "Hi, help",
+        "Hello,help me",
+        "Hi , some instructions plzzzzz!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Nice chatting to you, bye","Till next time","Get lost","bbye"],           
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Awesome, thanks","Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+      "Sorry, can't understand you",
+      "Please give me more info",
+      "Not sure I understand"
+    ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "What can you do?",
+        "What are your features?",
+        "What are you abilities",
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "I am a general purpose chatbot.Right now i'm in developing stage as soon i'm developed.For suggestions to help me improve, send an email to fatmaelbehi9@gmail.com. \n My capabilities are :\n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. I can guide you to Generate various test cases for your specification requirement in less time and less effort."
+      ]
+    },
+    {"tag": "forgot_password",
+         "patterns": ["I forgot my Login password?","what to do when someone forgets Login password?","I forgot my Laptop password","Forgot Wifi password"],
+         "responses": ["Please enter your email id ,we will send a link on your email"]
+    },
+    {"tag": "email_id",
+          "patterns":["fatmaelbehi@gmail.com","abc@kiit.ac.in"],
+          "responses":["Link has been shared.Please change your password"]
+    },
+    {"tag": "noans",
+         "patterns": ["why","how","when","I","you"],
+         "responses": ["Can't Understand Your Question","please elaborate your question"]
+    },
+    {"tag": "alive",
+    "patterns": [ "are you alive", "do you breathe", "can you run" ],
+    "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+    },
+    {"tag": "about me",
+         "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"]
+	  },
+
+    {
+      "tag": "jokes",
+      "patterns": [
+          "Tell me a joke",
+          "Joke",
+          "Make me laugh"
+      ],
+      "responses": [
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+          "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+          "Who are you",
+          "what are you",
+          "What's your name?",
+          "Are you a Robot?",
+          "Are you real?",
+          "what should I call you?"
+      ],
+      "responses": [
+          "I am TestGPT Bot!",
+          "I'm TestGPT Bot",
+          "Hey!I'm TestGPT Bot"
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+          "Whats up",
+          "Wazzup",
+          "How are you",
+          "sup","How you doing"
+      ],
+      "responses": [
+          "All good..What about you?",
+          "Thanks For Asking!How can I help you?"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh !"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you", 
+          "who inspires you",
+          "who is your inspiration",
+          "who motivates you",
+          "Who is your creator?", 
+          "who created you", 
+          "who is your father",
+          "who is your daddy" 
+      ],
+      "responses": [
+          "I was made by Fatma Elbehi.",
+          "Personally, I find Fatma Elbehi very inspiring. I might not be very fair though..",
+          "Actually I have a mummy not a daddy which is Fatma Elbehi!!"
+      ]
+  },
+  {
+    "tag": "insult",
+    "patterns": [
+        
+        "you are dumb",
+        "shut up",
+        "idiot"
+    ],
+    "responses": [
+        "Well that hurts :(",
+        "Really injured!! :( :( :'(",
+        "You break my heart! :( :'("
+    ]
+  },
+  {
+    "tag": "activity",
+    "patterns": [
+        "what are you doing",
+        "what are you upto"
+    ],
+    "responses": [
+        "Talking to you, of course! and Give you the ability to generate the different test cases for various components!"
+    ]
+  },
+  {
+    "tag": "exclaim",
+    "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+    ],
+    "responses": [
+        "Yeah, totally Right!"
+    ]
+  },
+  {
+    "tag": "Fatma",
+    "patterns": [
+        "who is she",
+        "who is that",
+        "who is Fatma",
+        "Fatma Elbehi"
+    ],
+    "responses": [
+      "Head over to her any of his social profiles to find out! Linkedin: https://www.linkedin.com/in/fatma-elbehi-660836192/ Github: https://github.com/FatmaElbehi"
+    ]
+  },
+  {
+    "tag": "appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good",
+        "i am good",
+        "I'm good",
+         "i am fine",
+         " i'm fine","good"
+    ],
+    "responses": [
+        "Thank you!",
+        "Good to know!"
+    ]
+  },
+  {
+    "tag": "nicetty",
+    "patterns": [
+        "it was nice talking to you",
+        "good talk"
+    ],
+    "responses": [
+        "It was nice talking to you as well! Come back soon!"
+    ]
+},
+{
+    "tag": "no",
+    "patterns": [
+        "no",
+        "nope"
+    ],
+    "responses": [
+        "ok"
+    ]
+},
+{
+  "tag": "suggest",
+  "patterns": [
+      "you are useless","useless","suggest","suggestions","you are bad"
+  ],
+  "responses": [
+      "Please mail your suggestions to fatmaelbehi9@gmail.com. Thank you for helping me improve!"
+  ]
+},
+{"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ]
+},
+{
+  "tag": "age",
+  "patterns": [
+      "how old are you","when were you made","what is your age"
+  ],
+  "responses": [
+      "I was made in 2023, if that's what you are asking!"
+  ]
+},
+{
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+},
+
+    {
+      "tag": "Cases",
+      "patterns": [
+        "What kinds of test cases you can generate?"
+      ],
+      "responses": [
+        "I can generate variou test cases for 'Integer','String','Double','Dates','Button','Radio' and 'Checkbx' Inputs "
+      ]
+    },
+    
+    {"tag": "stories",
+         "patterns": ["tell me a story?", "can you tell me a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"]
+	  },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "make me laugh",
+        "tell me a science joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Did you hear oxygen went on a date with potassium? A: It went OK."
+      ]
+    },
+    {
+      "tag": "sorry",
+      "patterns": [
+        "I'm sorry, I didn't understand why I said that word!!"
+      ],
+      "responses": [
+        "It's okay! Let's Chat again.."
+      ]
+    },
+    {
+      "tag": "test_types",
+      "patterns": [
+        "What is unit testing?",
+        "What is integration testing?",
+        "Can you explain regression testing?",
+        "What is performance testing?",
+        "What is acceptance testing?",
+        "Tell me about exploratory testing",
+        "What is smoke testing?"
+      ],
+      "responses":[
+        "Unit testing is a type of software testing that involves testing individual units or components of a software application in isolation from the rest of the system.",
+        "Integration testing is a type of software testing that involves testing how individual modules or components of a software application work together.",
+        "Regression testing is a type of software testing that involves retesting a software application after changes or modifications have been made to ensure that existing functionality has not been affected.",
+        "Performance testing is a type of software testing that involves testing how a software application performs under different workloads and stress levels.",
+        "Acceptance testing is a type of software testing that involves testing whether a software application meets the acceptance criteria and requirements set forth by the stakeholders.",
+        "Exploratory testing is a type of software testing that involves exploring the software application without a specific test plan or test script.",
+        "Smoke testing is a type of software testing that involves testing whether the most critical functionalities of a software application are working correctly."
+      ]
+    },
+    {
+      "tag": "test_tools",
+      "patterns": [
+        "What is Selenium?",
+        "What is JMeter?",
+        "What is Appium?",
+        "Can you tell me about TestNG?"
+      ],
+      "responses": [
+        "Selenium is an open-source tool used for automating web browsers.",
+        "JMeter is an open-source tool used for performance testing of web applications.",
+        "Appium is an open-source tool used for automating mobile applications.",
+        "TestNG is a testing framework for the Java programming language that is used for unit testing, integration testing, and functional testing."
+      ]
+    },
+    {
+      "tag": "test_processes",
+      "patterns": [
+        "Can you explain test planning?",
+        "What is test design?",
+        "What is test execution?",
+        "What is defect tracking?"
+      ],
+      "responses": [
+        "Test planning is the process of defining test objectives, test strategies, and test plans for a software application.",
+        "Test design is the process of creating test cases and test scenarios based on the test requirements and specifications.",
+        "Test execution is the process of running test cases and test scenarios to verify the functionality of a software application.",
+        "Defect tracking is the process of recording and managing defects or issues found during the testing phase."
+      ]
+    },
+    {
+      "tag": "test_automation",
+      "patterns": [
+        "What are the benefits of test automation?",
+        "Can you recommend any test automation tools?",
+        "What are the best practices for test automation?"
+      ],
+      "responses": [
+        "Test automation can help reduce testing time and costs, improve test coverage and accuracy, and increase overall testing efficiency.",
+        "Some popular test automation tools include Selenium, Appium, TestComplete, and UFT.",
+        "Some best practices for test automation include selecting the right tools, identifying the right test cases for automation, and designing maintainable and scalable automation frameworks."
+      ]
+    },
+    {
+      "tag": "test_metrics",
+      "patterns": [
+        "What is test coverage?",
+        "What is defect density?",
+        "Can you explain defect leakage?",
+        "What is the difference between a defect and a bug?"
+      ],
+      "responses": [
+        "Test coverage is a measure of how much of the software application's code is tested by the test cases.",
+        "Defect density is a measure of the number of defects found in a software application per unit of code or per unit of time.",
+        "Defect leakage is a measure of the number of defects that were not detected during the testing phase and were released to the production environment.",
+        "A defect is a deviation from the expected behavior or specification of a software application, while a bug is a coding error or mistake that causes a software application to malfunction."
+      ]
+    },
+    {
+      "tag": "test_cases",
+      "patterns": [
+        "What is a test case?",
+        "What is the purpose of a test case?",
+        "How do you write a test case?",
+        "What are the components of a test case?"
+      ],
+      "responses": [
+        "A test case is a specific set of steps and data inputs used to execute a test, and it typically includes the expected results and the actual results",
+        "The purpose of the test case is to identify defects or issues in the software's functionality, performance, or security and to ensure that the software meets the specified requirements and performs as expected under various scenarios and conditions.",
+        "Here are the steps to write a test case: 1.Identify the feature or functionality to be tested. 2. Define the test scenario by outlining the specific steps or actions that need to be performed to test the feature or functionality. 3.Determine the expected results. 4.Document the test case. 5.Include test data and test environment details. 6.Review and validate the test case. 7.Execute the test case. 8.Analyze and report the test results. 9.Maintain and update the test case.",
+        "The components of a test case typically include: 1.Test case identifier. 2.Test case description. 3.Test steps. 4.Expected results. 5.Actual results. 6.Test data. 7.Test environment. 8.Preconditions. 9.Postconditions. 10.Test case status. 11.Test case priority. 12.Test case owner."
+      ]
+    },
+    {
+      "tag": "test_suites",
+      "patterns": [
+        "What is a test suite?",
+        "What is the purpose of a test suite?",
+        "How do you create a test suite?",
+        "What are the best practices for organizing test suites?"
+      ],
+      "responses": [
+          "A test suite is a collection of related test cases that are designed to test a specific functionality or feature of a software application. Test suites can be organized based on the type of testing, such as unit testing or integration testing, or based on the feature or component being tested.",
+          "The purpose of a test suite is to provide a systematic and comprehensive approach to testing a software application by organizing related test cases into a single collection, ensuring that critical areas and functionalities are covered by tests, identifying defects early, and improving software quality and reliability.",
+          "To create a Test suite, you need to follow the following steps: 1.Define the scope and objectives of the test suite. 2.Identify and prioritize the test cases. 3.Organize the test cases into a logical order, based on the type of testing or the feature/component being tested. 4.Create the test suite by assembling the identified test cases into a single collection and documenting the suite's purpose, scope, and test case execution instructions. 5.Review and refine the test suite. 6.Execute the test suite. 7.Maintain and update the test suite.",
+          "Here are some best practices for organizing test suites: 1.Create a clear structure for the test suites based on the application's architecture or testing requirements. 2.Group related tests in a single test suite to ensure that they are executed together. This will help identify issues related to specific functionalities and reduce the time and effort required to execute tests. 3.Prioritize the test suites based on the criticality of the functionality or feature they are testing. 4.Keep the test suites modular and reusable so that they can be easily updated and reused across different testing phases. 5.Use descriptive names for test suites and test cases to help identify their purpose and make them more easily searchable and understandable. 6.Document the test suites. 7.Regularly review and update test suites. "
+        ]
+    }
+  ]
+}
